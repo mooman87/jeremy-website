@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Resume</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Jeremy Lese</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="navbar-text active">
+            Pittsburgh, PA
+          </li>
+          <li class="navbar-text">
+            412-721-3174
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:jlese05@gmail.com">jlese05@gmail.com</jlese05@gmail></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/mooman87">GitHub</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.aniosindustries.com/">Aníos Industries</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <p class="summary">
+        Self-motivated, driven individual with an aptitude for learning new
+        technology seeking a front end developer position where I can
+        apply and enhance my skills.
+      </p>
+      <hr>
+    <h4 class="section-title">Skills:</h4>
+    <ul class="list-group list-group-horizontal skills">
+      <li class="list-group-item flex-fill">Adobe XD</li>
+      <li class="list-group-item flex-fill">Bootstrap</li>
+      <li class="list-group-item flex-fill">D3.js</li>
+      <li class="list-group-item flex-fill">Express.js</li>
+      <li class="list-group-item flex-fill">Javascript</li>
+      <li class="list-group-item flex-fill">Material UI</li>
+      <li class="list-group-item flex-fill">MongoDB</li>
+      <li class="list-group-item flex-fill">Node.js</li>
+      <li class="list-group-item flex-fill">React</li>
+      <li class="list-group-item flex-fill">Solidity</li>
+    </ul>
+    <hr>
+    <h4 class="section-title">Employment Experience:</h4>
+    <h6 class="section-title">Case Manager</h6>
+    <p class="section-title">ConnectiveRx, Pittsburgh, PA</p>
+    <ul>
+      <li>Manage the Care Coordination process through consistently identifying complex and specific issues and developing action plans accordingly</li>
+      <li>Facilitate program services related to authorization and appeal support through tactical communication with healthcare providers, payers, and patients in order to promote product access</li>
+      <li>Provide claim support by answering medical billing inquires and coordinating payer review of denied or underpaid claims</li>
+      <li>Strategically identify training opportunities, contribute to training activities, and create/update program SOPs and other tools as needed</li>
+      <li>Participate in special projects and perform additional duties as required</li>
+    </ul>
+    <h6 class="section-title">QA Associate</h6>
+    <p class="section-title">ConnectiveRx, Pittsburgh, PA</p>
+    <ul>
+      <li>Audit benefits verification for Tier 5 medication according to client requirements</li>
+      <li>Completed annual verification project with near perfect success rate</li>
+      <li>Cross trained on client medications to assist department with other projects</li>
+      <li>Assist leadership with mentoring junior associates</li>
+      <li>Participate in special projects and perform additional duties as required</li>
+    </ul>
+    <h6 class="section-title">Front End Developer</h6>
+    <p class="section-title">Snapbrillia, Remote</p>
+    <ul>
+      <li>Develop core features with an emphasis on React and D3.js to enhance user experience</li>
+      <li>Scrum with design and product team to ensure app meets design choices and user requests</li>
+      <li>Mentor and collaborate with junior developers as needed</li>
+    </ul>
+    <h6 class="section-title">Patient Care Advocate</h6>
+    <p class="section-title">Accredo Health Group, Warrendale, PA</p>
+    <ul>
+      <li>Respond to 30-50 calls per day for inquiries and prescription reorder</li>
+      <li>Handle patient personal, financial, and medical information per HIPAA regulations</li>
+      <li>Maintain consistent AAA Quality Service score</li>
+    </ul>
+    <h6 class="section-title">Retention Agent/Empowered Leader</h6>
+    <p class="section-title">Ibex, Pittsburgh, PA</p>
+    <ul>
+      <li>Use industry best practices to retain customers who want to cancel telecom services</li>
+      <li>Upsell and add premium services to customer accounts to create value and generate revenue for the organization</li>
+      <li>Train and supervise newer employees as required</li>
+    </ul>  
+    <h6 class="section-title">Team Director</h6>
+    <p class="section-title">Murphy Nasica, United States</p>
+    <ul>
+      <li>Manage grassroots campaign staff for various political candidates nationwide</li>
+      <li>Interpret raw data and qualitative analysis to assess chances of victory</li>
+      <li>Spot check staff to ensure campaign message is in line with applicable election laws and client requirements</li>
+    </ul>
+    <h6 class="section-title">Regional Field Director</h6>
+    <p class="section-title">Confidential, United States</p>
+    <ul>
+      <li>Collaborated daily with party and campaign officials on staffing candidate events.</li>
+      <li>Leveraged existing grassroots network to build large teams of canvassers and phone reps.</li>
+      <li>Worked closely with educators in assigned territory to recruit interns, who assisted me in training volunteers on methods to persuade undecided voters.</li>
+    </ul>
+    <h6 class="section-title">Chairman (Previously Press Secretary, Media Director, and Vice Chairman)</h6>
+    <p class="section-title">Confidential, United States</p>
+    <ul>
+      <li>Developed media profile through press releases, op-eds, letters to the editor, and various social media vehicles.</li>
+      <li>Constructed a fundraising strategy (digital campaigns, fundraising letters to key donors and officials, various monthly events targeting college students, co-sponsoring events with other groups in the area).</li>
+      <li>Cultivated a base of youth support that proved essential in achieving victory at state and federal levels from 2014-2016.</li>
+    </ul>
+    <h6 class="section-title">Office Manager/Sales Manager</h6>
+    <p class="section-title">Next Concept Medical, Pittsburgh, PA</p>
+    <ul>
+      <li>Worked with chiropractors to increase revenue through proprietary system</li>
+      <li>Developed marketing strategies and solicitation campaigns in collaboration with the Regional Director and CEO to build awareness of and support for chiropractic wellness.</li>
+      <li>Forged relationships with community leaders, chiropractors, and other local businesses to advertise our events, products, and services, which drove gains in revenue from $1.3 to $2.1 million (FY 14).</li>
+      <li>Conducted daily staff coaching sessions on core and advanced sales concepts/techniques.</li>
+    </ul>
+    <hr>
+    <h6 class="section-title">Education:</h6>
+    <p class="section-title">Certificate - 2020 Web Developer Bootcamp</p>
+    <p class="section-title">Obtained @ London App Brewery via Udemy</p>  
+  </body>
+
+
+  <script>
+    let width = 96;
+    let height = 50;
+
+    let margin = {
+      top: 20,
+      right: 20,
+      bottom: 30,
+      left: 40
+    };
+    
+    let maxValue = 10;
+
+    let svg = d3.select('.skills')
+      .append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+    let x = d3.scaleBand()
+      .range([0, width])
+      .padding(0.1);
+
+    let y = d3.scaleLinear()
+      .range([height, 0])
+      .domain([0, maxValue]);
+
+    let xAxis = d3.axisBottom(x)
+      .tickSizeOuter(0);
+
+    let yAxis = d3.axisLeft(y)
+      .tickSizeOuter(0);
+
+    let data = [
+      {
+        name: 'HTML',
+        value: 8
+      },
+      {
+        name: 'CSS',
+        value: 8
+      },
+      {
+        name: 'JavaScript',
+        value: 8
+      },
+      {
+        name: 'React',
+        value: 8
+      },
+      {
+        name: 'Node',
+        value: 8
+      },
+      {
+        name: 'Express',
+        value: 8
+      },
+      {
+        name: 'MongoDB',
+        value: 8
+      },
+      {
+        name: 'SQL',
+        value: 8
+      },
+      {
+        name: 'Python',
+        value: 8
+      },
+      {
+        name: 'D3',
+        value: 8
+      },
+      {
+        name: 'Git',
+        value: 8
+      },
+      {
+        name: 'GitHub',
+        value: 8
+      },
+      {
+        name: 'Heroku',
+        value: 8
+      },
+      {
+        name: 'Mocha',
+        value: 8
+      },
+      {
+        name: 'Chai',
+        value: 8
+      },
+      {
+        name: 'Jest',
+        value: 8
+      },
+      {
+        name: 'Enzyme',
+        value: 8
+      },
+      {
+        name: 'JQuery',
+        value: 8
+      },
+      {
+        name: 'Bootstrap',
+        value: 8
+      },
+      {
+        name: 'Materialize',
+        value: 8
+      },
+      {
+        name: 'Gulp',
+        value: 8
+      },
+      {
+        name: 'Webpack',
+        value: 8
+      },
+      {
+        name: 'Babel',
+        value: 8
+      },
+      {
+        name: 'NPM',
+        value: 8
+      },
+      {
+        name: 'GitLab',
+        value: 8
+      },
+      {
+        name: 'GitLab CI',
+        value: 8
+      },
+    ];
+
+    x.domain(data.map(function(d) {
+      return d.name;
+    }));
+
+    svg.append('g')
+      .attr('class', 'x axis')
+      .attr('transform', 'translate(0,' + height + ')')
+      .call(xAxis);
+
+    svg.append('g')
+      .attr('class', 'y axis')
+      .call(yAxis)
+      .append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('y', 6)
+      .attr('dy', '.71em')
+      .style('text-anchor', 'end')
+      .text('Skill Level');
+
+    svg.selectAll('.bar')
+      .data(data)
+      .enter().append('rect')
+      .attr('class', 'bar')
+      .attr('x', function(d) {
+        return x(d.name);
+      })
+      .attr('width', x.bandwidth())
+      .attr('y', function(d) {
+        return y(d.value);
+      })
+      .attr('height', function(d) {
+        return height - y(d.value);
+      });
+
+      
+
+  </script>
+
+</html>
